@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azureml/base:0.2.2
+FROM mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04
 
 # Set locale
 RUN apt-get update
